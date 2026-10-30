@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-apiai-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://apiai.me/
+apiai.me provides an API‑first platform that lets developers chain together AI models, deterministic tools, and quality‑check steps into a single pipeline. With a single REST call you can invoke image generation, background removal, video creation, and custom model orchestration, receiving finished assets instantly. The service offers a dashboard for building pipelines visually and a robust API for programmatic integration, targeting AI‑driven applications and automation workflows.
+
+**Areas:** Company · AI · Orchestration · Automation · Platform
+
+## apiai-me on APIs.io
+
+Everything profiled for apiai-me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apiai-me/](https://apis.io/providers/apiai-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [apiai.me API](https://apis.io/apis/apiai-me/apiai-me-api-2/) — Complete reference for the apiai.me API pipelines and AI orchestration platform. Authentication, image generation, background removal, pipeline…
+- [apiai-me API](https://apis.io/apis/apiai-me/apiai-me-api/) — apiai-me API as documented publicly: 103 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1WorkflowsResponse](https://apis.io/schemas/apiai-me/apiai-me-get-api-v1-workflows-response/)
+- [GetWorkflowsResponse](https://apis.io/schemas/apiai-me/apiai-me-get-workflows-response/)
+- [PostApiV1QualityGateResponse](https://apis.io/schemas/apiai-me/apiai-me-post-api-v1-quality-gate-response/)
+- [PostFlowsRequest](https://apis.io/schemas/apiai-me/apiai-me-post-flows-request/)
+- [PostQualityGateRequest](https://apis.io/schemas/apiai-me/apiai-me-post-quality-gate-request/)
+- [PostV1EvalRunRequest](https://apis.io/schemas/apiai-me/apiai-me-post-v1-eval-run-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apiai Me Context](https://apis.io/jsonld/apiai-me/apiai-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [apiai-me API Rules](https://apis.io/rules/apiai-me/apiai-me-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apiai Me Domain Security](https://apis.io/security/apiai-me/apiai-me-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apiai Me Rate Limits](https://apis.io/rate-limits/apiai-me/apiai-me-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apiai.me/)
+- [Documentation](https://apiai.me/docs)
+- [API reference](https://apiai.me/docs)
+- [Pricing](https://apiai.me/pricing)
+- [Sign up](https://apiai.me/dashboard)
+- [Support](https://apiai.me/contact)
+- [Terms of service](https://apiai.me/terms)
+- [Privacy policy](https://apiai.me/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 44.7 |
+
+**Agent readiness 37.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apiai-me/](https://apis.io/providers/apiai-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for apiai-me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apiai-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
